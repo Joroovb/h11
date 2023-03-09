@@ -5,7 +5,7 @@
     .dependencies = .{
         .http = .{
             .url = "https://github.com/Joroovb/http/archive/master.tar.gz",
-            .hash = "12201059957b8b1bbd5da1580ba4c62afd8aa982589b71a6f14d9703426dc4b983b8",
+            .hash = "12207d3c92db630f2b91755eb7ce24254e7c4e08ba7da97d0a3c70219ddc54a24259",
         },
     }
 }
