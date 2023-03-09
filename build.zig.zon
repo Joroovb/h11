@@ -1,0 +1,11 @@
+.{
+    .name = "h11",
+    .version = "0.0.1",
+
+    .dependencies = .{
+        .http = .{
+            .url = "https://github.com/Joroovb/http/archive/master.tar.gz",
+            .hash = "12201059957b8b1bbd5da1580ba4c62afd8aa982589b71a6f14d9703426dc4b983b8",
+        },
+    }
+}
