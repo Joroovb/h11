@@ -59,7 +59,7 @@ pub const Request = struct {
         var requestLine = buffer[0..line_end];
         var cursor: usize = 0;
 
-        var method = for (requestLine) |char, i| {
+        var method = for (requestLine, 0..) |char, i| {
             if (char == ' ') {
                 cursor += i + 1;
                 var value = try Method.from_bytes(requestLine[0..i]);

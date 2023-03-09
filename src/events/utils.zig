@@ -36,7 +36,7 @@ fn is_uri_token(char: u8) bool {
 }
 
 pub fn readUri(buffer: []const u8) ParsingError![]const u8 {
-    for (buffer) |char, i| {
+    for (buffer, 0..) |char, i| {
         if (char == ' ') {
             return buffer[0..i];
         }
